@@ -24,9 +24,9 @@ def analyze_text(s) :
 
     word_ratio = words_with_e / total_words
 
-    print(f"Total words: {total_words}")
-    print(f"Words with an 'E': {words_with_e}")
-    print(f"E ratio: {word_ratio:.1%}")
+    #print(f"Total words: {total_words}")
+    #print(f"Words with an 'E': {words_with_e}")
+    #print(f"E ratio: {word_ratio:.1%}")
 
     print(f'Your text contains {total_words} words, of which {words_with_e} ({word_ratio:.1%}) contain an "e"')
 
